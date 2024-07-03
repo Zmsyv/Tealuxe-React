@@ -26,8 +26,8 @@ let prioritiseData = [
 function PrioritiseList() {
   return (
     <div className="priortise-functionality">
-      {prioritiseData.map((prioritise) => (
-        <PrioritiseListItem item={prioritise} />
+      {prioritiseData.map((prioritise, index) => (
+        <PrioritiseListItem item={prioritise} key={index} />
       ))}
     </div>
   );

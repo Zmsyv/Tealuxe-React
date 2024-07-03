@@ -7,7 +7,7 @@ import Prioritise from "./ourpriortise/Prioritise";
 
 function TheMain() {
   return (
-    <>
+    <main>
       <Background />
       <Description />
       <Collection />
@@ -15,7 +15,7 @@ function TheMain() {
       {/* <BlogMain /> */}
       <KnowMore />
       <Prioritise />
-    </>
+    </main>
   );
 }
 

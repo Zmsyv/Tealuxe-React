@@ -11,8 +11,8 @@ let teaData = [
 function TeaList() {
   return (
     <div className="types-content">
-      {teaData.map((tea) => (
-        <TeaListItem item={tea} />
+      {teaData.map((tea, index) => (
+        <TeaListItem item={tea} key={index} />
       ))}
 
     </div>

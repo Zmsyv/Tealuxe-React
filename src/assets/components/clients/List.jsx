@@ -22,8 +22,8 @@ let authorData = [
 function List() {
   return (
     <div className="list-types-content">
-      {authorData.map((author) => (
-        <ListItem item={author} />
+      {authorData.map((author, index) => (
+        <ListItem item={author} key={index} />
       ))}
     </div>
   );
