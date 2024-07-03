@@ -68,6 +68,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 .header-content {
   display: flex;
@@ -96,16 +97,16 @@ body {
 
 .main {
   height: 500px;
-  background-image: url(./tea-imgs/Background.jpg);
+  background-image: url(./src/assets/images/background.jpg);
 }
 .main-content {
   font-size: 60px;
-  padding-top: 254px;
+  padding-top: 200px;
   color: aliceblue;
 }
 .main-title {
   font-size: 24px;
-  padding-top: 50px;
+  padding-top: 20px;
   color: aliceblue;
 }
 .content {
@@ -119,8 +120,14 @@ body {
   margin-bottom: 150px;
 }
 .types-content {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.list-types-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  font-size: 12px;
 }
 .author-main {
   display: flex;
@@ -155,14 +162,20 @@ body {
   display: block;
 }
 .blog-title {
-  display: flex;
-  width: 45%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 .blog-text {
+  width: 50%;
   justify-content: space-between;
-  padding-left: 20px;
+  padding-left: 0px;
   display: flex;
   flex-direction: column;
+}
+.blog-main {
+  display: grid;
+  grid-template-columns: (2, 1fr);
+  grid-template-rows: (2, 1fr);
 }
 
 a {
@@ -255,7 +268,6 @@ form a {
 }
 .prioritise-header {
   display: flex;
-
   justify-content: center;
 }
 .prioritise-header h1 {
@@ -270,13 +282,14 @@ form a {
 .priortise-heading {
   display: flex;
   justify-content: center;
+  text-align: center;
   font-size: 30px;
 }
 .description {
-  margin: 10px 0px;
   font-size: 20px;
   display: flex;
   justify-content: center;
+  text-align: center;
   padding-top: 10px;
 }
 .priortise-img {
@@ -333,6 +346,28 @@ form a {
   height: 20px;
   width: 20px;
 }
+
 .forwrap {
   flex-wrap: wrap;
+}
+
+.forh2 {
+  padding-left: 80px;
+}
+.forsays {
+  font-size: 16px;
+}
+.fortips {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.for-list-h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+}
+.gray {
+  padding-top: 30px;
+  background-color: #f7f2ea;
 }
