@@ -25,9 +25,9 @@ let blogData = [
 
 function Blog() {
   return (
-    <div >
-      {blogData.map((blog) => (
-        <BlogItem item={blog} />
+    <div className="for-blog">
+      {blogData.map((blog, index) => (
+        <BlogItem item={blog} key={index} />
       ))}
     </div>
   );

@@ -1,13 +1,13 @@
 function KnowMore() {
   return (
-    <section class="know-more container">
+    <section className="know-more container">
       <div>
-        <div class="know-more-header">
-          <h2 class="more-header">Want to know more?</h2>
+        <div className="know-more-header">
+          <h2 className="more-header">Want to know more?</h2>
         </div>
-        <div class="left">
-          <div class="know-more-content-left">
-            <p class="know-more-description">
+        <div className="left">
+          <div className="know-more-content-left">
+            <p className="know-more-description">
               Join our mailing list and stay up-to-date with the latest news,
               promotions,and exclusive offers from our tea store.Be the first to
               know about new tea arrivals, seasonal blends, and special
@@ -16,18 +16,18 @@ function KnowMore() {
           </div>
         </div>
       </div>
-      <div class="know-more-content">
-        <div class="hide">
+      <div className="know-more-content">
+        <div className="hide">
           <h2>hidden word</h2>
         </div>
-        <div class="know-more-content-right">
-          <div class="join-us">
-            <form action="#" class="subscribe">
+        <div className="know-more-content-right">
+          <div className="join-us">
+            <form action="#" className="subscribe">
               <input type="email" placeholder="name@email.com" />
               <a href="#">Join</a>
             </form>
           </div>
-          <div class="check-subscribing">
+          <div className="check-subscribing">
             <form action="#">
               <input type="checkbox" />
             </form>

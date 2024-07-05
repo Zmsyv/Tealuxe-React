@@ -4,6 +4,7 @@ import Background from "./othersections/Background";
 import Description from "./othersections/Description";
 import KnowMore from "./othersections/KnowMore";
 import Prioritise from "./ourpriortise/Prioritise";
+import BlogMain from "./teablog/BlogMain";
 
 function TheMain() {
   return (
@@ -12,7 +13,7 @@ function TheMain() {
       <Description />
       <Collection />
       <ClientSay />
-      {/* <BlogMain /> */}
+      <BlogMain />
       <KnowMore />
       <Prioritise />
     </main>

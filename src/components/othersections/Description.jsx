@@ -1,7 +1,7 @@
 function Description() {
   return (
     <section>
-      <p class="content container">
+      <p className="content container">
         "Tea is not just a drink, it's a way of life and <br />
         way to connect with our loved ones."
       </p>
