@@ -3,6 +3,9 @@ import HeaderNav from "./HeaderNav";
 function Header() {
   return (
     <header className="header container">
+      <a href="" className="hamburger-menu">
+        <img src="./src/assets/images/hamburgermenu.svg" alt="" />
+      </a>
       <a href="#" className="logo">
         <img src="./src/assets/images/logo.svg" alt="" />
       </a>

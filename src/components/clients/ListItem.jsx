@@ -1,8 +1,10 @@
 function ListItem(props) {
   return (
-    <div>
+    <div className="client-resp">
       <p className="forsays">{props.item.says}</p>
-      <h2 className="for-list-h2"><strong>{props.item.author}</strong></h2>
+      <h2 className="for-list-h2">
+        <strong>{props.item.author}</strong>
+      </h2>
     </div>
   );
 }
